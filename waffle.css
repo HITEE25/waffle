@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7A4B3D;
+    height:50px;
+    align-items: center;
+}
+.nav-option{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    text-decoration: none;
+    color: #F8E4B2;
+}
+.logo{
+    background-image: url('logow.png');
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+}
+.dig p:hover{
+    color: #7A4B3D;
+}
+/*hero-section*/
+.hero-section{
+    background-image: url('hero-imagew.avif');
+    background-size: cover;
+}
+.h1{
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: right;
+    color: #492317;
+    font-size: 5rem;
+    font-family: serif;
+}
+.h2{
+    padding-right: 50px;
+    margin-left: 780px;
+    text-align: right;
+    font-size: 1.7rem;
+    color: #492317;
+    width: 700px;
+}
+.button{
+    background-color: #C78556;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: centre;
+    align-items: center;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+button:hover{
+    background-color:#492317;
+}
+.box{
+    background-color: white;
+    width :100%;
+    height: 500px;
+    margin-top:50px;
+    border-radius: 25px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D0B18B;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.order-list{
+    height: 200px;
+    width: 200px;
+}
+.design{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.two{
+    font-size: 2rem;
+}
+.dig{
+    margin-top: 50px;
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    border-radius: 25px;
+}
+.dig p{
+    text-align: center;
+    margin-top: 15px;
+}
+.dig p:hover{
+    text-decoration: underline;
+}
+.about{
+    display: flex;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: Quicksand;
+}
+.about-us pre{
+   width: 600px;
+   margin-left: 80px;
+   display: flex;
+   justify-items: centre;
+   margin-top: 50px;
+   font-size: 1rem;
+}  
+.about-us{
+    background-color: #7A4B3D;
+    height: 400px; 
+    margin-top: 0px;
+}
+/*menu*/
+.w{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-size: cover;
+}
+.wbox{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.waffle{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu-dis{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: serif;
+    font-size: 1rem;
+}
+/*footer*/
+.contact{
+    margin-top: 50px;
+    background-color: #F8C030;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    height: 300px;
+    align-items: center;
+    line-height: 1.8;
+}
+.location{
+    width: 200px;
+    height: 200px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.big{
+    font-size:1rem;
+    font-weight: bold;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: #492317;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    color: white;
+}
